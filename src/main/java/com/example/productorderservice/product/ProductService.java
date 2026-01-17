@@ -1,5 +1,10 @@
 package com.example.productorderservice.product;
 
+
+import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
+
+@Component
 class ProductService {
     private ProductPort productPort;
 
