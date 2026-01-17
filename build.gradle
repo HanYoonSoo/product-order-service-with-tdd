@@ -36,6 +36,7 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     testImplementation 'io.rest-assured:rest-assured:5.4.0'
     testImplementation 'com.fasterxml.jackson.core:jackson-databind'
+    implementation 'com.google.guava:guava:33.5.0-jre'
 }
 
 tasks.named('test') {
