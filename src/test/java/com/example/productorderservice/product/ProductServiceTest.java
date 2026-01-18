@@ -19,7 +19,7 @@ public class ProductServiceTest {
         final long productId = 1L;
 
         // 상품을 조회
-        final GetProductResponse response = productService.getProduct(productId);
+        final GetProductResponse response = productService.getProduct(productId).getBody();
 
         // 상품의 응답을 검증
         assertThat(response).isNotNull();

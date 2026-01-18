@@ -23,4 +23,5 @@ public class ProductSteps {
         final DiscountPolicy discountPolicy = DiscountPolicy.NONE;
         return new AddProductRequest(name, price, discountPolicy);
     }
+
 }
